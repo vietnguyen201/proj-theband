@@ -1,0 +1,29 @@
+/* Reset css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.clear{
+    clear: both;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: #ccc;
+    color: black;
+}
