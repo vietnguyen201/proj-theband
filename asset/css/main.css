@@ -252,3 +252,80 @@
     margin-top: 15px;
     margin-bottom: 16px;
 }
+
+/* Contact Section */
+.content-wrap {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+}
+
+.contact-info {
+    min-width: 390px;
+
+}
+
+.contact-item {
+    font-size: 18px;
+}
+
+.contact-item-icon {
+    font-size: 15px;
+    margin-right: 16px;
+    min-width: 15px;
+}
+
+
+.contact-form{
+    flex: 1;
+}
+
+.input-hafl{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-form-input-hafl{
+    flex-basis: 48%;
+}
+
+.contact-form-input-hafl,
+.contact-form-input {
+    border: 1px solid #ccc;
+    padding: 8px;
+    line-height: 22.5px;
+    width: 100%;
+    font-size: 15px;
+}
+
+.input-full{
+    margin-top: 8px;
+}
+
+.btn-contact-form{
+    margin-top: 16px;
+    float: right;
+    border: none;
+    line-height: 22.5px;
+}
+
+.map-img{
+    width: 100%;
+    filter: grayscale(50%);
+    display: block;
+}
+
+.footer{
+    background-color: #f1f1f1;
+    padding: 64px 16px;
+}
+
+.footer-info{
+    text-align: center;
+    width: 100%;
+    color: #848484;
+}
+
+.footer-info a{
+    color: #848484;
+}
